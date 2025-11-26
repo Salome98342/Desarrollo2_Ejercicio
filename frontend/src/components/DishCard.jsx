@@ -1,4 +1,4 @@
-function DishCard({ dish }) {
+export default function DishCard({ dish }) {
   return (
     <div className="dish-card">
       <h3>{dish.name}</h3>
@@ -6,5 +6,3 @@ function DishCard({ dish }) {
     </div>
   );
 }
-
-export default DishCard;
